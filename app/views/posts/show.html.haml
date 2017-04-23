@@ -10,3 +10,9 @@
     .text-center
       =link_to "Cancel", posts_path
       ~#above is the code that runs when we click on an individual image
+
+      ~# this code links the edit view to the show view
+      .text-center.edit-links
+  = link_to "Cancel", posts_path
+  |
+  = link_to "Edit Post", edit_post_path(@post)
