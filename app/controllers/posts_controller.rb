@@ -3,6 +3,11 @@ class PostsController < ApplicationController
 		@posts=Post.all
 	end
 
+	def show
+		#show a single post with its associated comments and likes
+		#an instance variable pointing to the specific post
+		@post=Post.find(params[:id])
+	end
 	def new
 		@post=Post.new
 	end
