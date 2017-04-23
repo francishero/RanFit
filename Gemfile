@@ -35,6 +35,7 @@ gem 'haml'
 gem 'bootstrap-sass'
 gem 'simple_form'
 gem 'paperclip'
+gem 'devise'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
